@@ -10,8 +10,8 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "user", schema = "public")
-public class User {
+@Table(name = "user_dummy", schema = "public")
+public class UserDummy {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
